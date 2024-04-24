@@ -25,6 +25,10 @@ app.use(express.urlencoded({
 }))
 app.use(express.json());
 
+app.use("/healthcheck", (req, res) => {
+    res.status(200).send("ok");
+})
+
 app.post('/email', (req, res) => {
     console.log('Data: ', req.body);
     res.json({message:'Message recieved'})
