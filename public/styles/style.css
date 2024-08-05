@@ -23,6 +23,10 @@ a {
     color: #CECECE
 }
 
+.btn {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* HEROES */
 
 .hero-top {
@@ -112,8 +116,8 @@ nav {
     border: 1px solid #9A1750;
     border-radius: 35px;
     text-transform: uppercase;
-    padding: 15px;
-    font-size: 16px;
+    padding: 14px;
+    font-size: 14px;
 }
 
 .btn-primary:hover {
@@ -141,7 +145,7 @@ nav {
 .btn-darkhover {
     background-color: #272727;
     color: #F8F8F8;
-    border: 1px solid #272727;
+    border: 2px solid #272727;
     border-radius: 35px;
     text-transform: uppercase;
 }
@@ -150,8 +154,6 @@ nav {
     background-color: transparent;
     color: #272727;
     border: 2px solid #272727;
-    border-radius: 35px;
-    text-transform: uppercase;
 }
 
 /* SOCIAL MEDIA BUTTONS */
@@ -165,6 +167,18 @@ nav {
 
 .btn-info:hover{
     background-color: transparent;
+    border: 1px solid #016A70;
+}
+
+.btn-footer {
+    border: 1px solid #016A70;
+    background-color: #016A70;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+.btn-footer:hover{
+    background-color: #272727;
     border: 1px solid #016A70;
 }
 
